@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Music Streaming Platform - Enjoy Unlimited Songs">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/favicon-32x32.png" type="image/x-icon">
+    <title>Music Streaming</title>
+    <script  src="script.js"></script>
+</head>
+<body>
+
+    <!-- Sidebar with Music Player -->
+    <aside class="sidebar">
+        <div class="logo-section">
+            <img src="assets/icons/logo.png" alt="Music Stream Logo" id="logo">
+            <h2>🎵 Music</h2>
+        </div>
+        <nav>
+            <ul>
+            <a href="#">🏠 Home</a>
+            <a href="#">🔍 Search</a>
+            <a href="#">📁 Your Library</a>
+            <a href="#">🎵 Your Playlists</a>
+        </nav>
+
+        <!-- Music Player -->
+        <div class="music-player">
+           
+            <h3 id="song-title">Select a song</h3>
+            <audio id="audio-player" src=""></audio>
+            <div class="controls">
+                <button id="prevBtn"><i class="fas fa-step-backward"></i></button>
+                <button id="playPauseBtn"><i class="fas fa-play"></i></button>
+                <button id="nextBtn"><i class="fas fa-step-forward"></i></button>
+            </div>
+            <input type="range" id="progress-bar" min="0" value="0">
+        </div>
+
+        <button class="toggle-dark-mode">🌙 Toggle Dark Mode</button>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <header class="header">
+            <nav class="header-links">
+                <a href="#">Premium</a>
+                <a href="#">Support</a>
+                <a href="#">Download</a>
+                <a href="#">Install App</a>
+                <a href="#">Sign up</a>
+                <button id="loginBtn">Log in</button>
+            </nav>
+        </header>
+        <h1>Good Morning</h1>
+        <p>Enjoy your favorite music 🎶</p>
+
+        <!-- Playlist Section -->
+        <section class="playlist-section">
+            <h2>🎧 Featured Playlists</h2>
+            <div class="playlist-cards">
+                <div class="playlist-card song" src="assets/songs/_Dhvani_Bhanushali,_Tanishk_Bagchi__Nikhil_D__Bhushan_Kumar__Radhika_Rao,_Vinay_Sapru(128k).mp3" src=assetsimages/lofibanner.jpg">
+                    <img src="assets/images/lofi.jpg" alt="Lo-Fi Beats">
+                    <p>Lo-Fi Beats</p>
+                </div>
+                <div class="playlist-card song" src="assets/songs/Chashni_Song_(LYRICS)_-_Bharat__Salman_Khan,_Katrina_Kaif__Vishal_&_Shekhar_ft._Abhijeet(256kbps).mp3" cover src="assets/images/chillvibesbanner.jpg">
+                    <img src="assets/images/chillvibes.jpg" alt="Chill Vibes">
+                    <p>Chill Vibes</p>
+                </div>
+                <div class="playlist-card song" src="assets/songs/Ishq_Hua__Female_Cover__Shreya_Jain__Fotilo_Feller__Vivart(128k).mp3"  cover src="assets/images/tophits.jpg">
+                    <img src="assets/images/tophits.jpg" alt="Top Hits 2024">
+                    <p>Top Hits 2024</p>
+                </div>
+                <div class="playlist-card song" src="assets/songs/Teri_Mitti_Female_Version_-_Kesari___Arko_feat._Parineeti_Chopra___Akshay_Kumar___Manoj_Muntashir(256k).mp3" src="assets/images/yourplaylist.jpg">
+                    <img src="assets/images/yourplaylist.jpg" alt="Your Playlist">
+                    <p>Your Playlist</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
