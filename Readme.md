@@ -16,13 +16,7 @@ _A futuristic music streaming platform with neon cyberpunk UI, dynamic playlists
 
 ---
 
-## 📸 Screenshots:
 
-| Home Page | Music Player | Playlist |
-|-----------|-------------|----------|
-| ![Home](https://your-image-link.com) | ![Player](https://your-image-link.com) | ![Playlist](https://your-image-link.com) |
-
----
 
 ## 🚀 Installation Guide:
 ```bash
@@ -67,7 +61,7 @@ git push origin feature-branch
 ---
 
 ## 📬 Contact:
-📧 Email: your-email@example.com  
+📧 Email:-bpooja.mama@gmail.com
 📸 Instagram: [@echoesofthesilentquill](https://instagram.com/echoesofthesilentquill)  
 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
 
